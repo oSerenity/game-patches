@@ -2,6 +2,7 @@
 !*/
 !.gitignore
 
+!/create_patch.ps1
 !/create_patch.sh
 !/.github/**/*
 !/package.json
