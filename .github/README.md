@@ -37,6 +37,20 @@ While most aspect ratio patches are 21:9 (3440/1440), they can be changed to oth
 2. [Convert the result to hex](https://gregstoll.com/~gregstoll/floattohex).
 3. Change the value to `0x########` replacing `########` with the hex value.
 
+## Troubleshooting
+If the above sections didn't help, you can try the following:
+1. Make sure you followed [Applying Patches](#Applying-Patches).
+2. Try deleting all of your patches and [updating them](#Updating).
+3. Set `log_level` to `2` in the Xenia config.
+4. Search (<kbd>Ctrl+F</kbd>) for `!!TODO!!`.
+5. If you find this, you can try commenting the `hash` of the patch out like so:
+    ```toml
+    # Add # before hash
+    hash = "################"
+    # like this
+    #hash = "################"
+    ```
+
 ---
 
 ## Contributing
